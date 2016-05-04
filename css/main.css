@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+/*about us*/
+.active{background-color: #191C3C;}
+.turque{background-color: #12BC5A;width: 100%;height: 200px;}
+.malesuada{color: white;padding: 20px;}
+.breadcrumb {width: 20%;float: right;background-color: #12BC5A;}
+.white{color: white;opacity: 0.5;}
+.azul{color: #22116D;text-align: center;}
+.blan{padding: 30px;}
+.facebook-official{background-color: #5432D1;border-radius: 30px;}
+.az{color: #0E0A60;}
+.blue{background-color: #06024F;width: 100%;height:440px;padding: 20px;}
+.fa-facebook-official{color: blue;background-color: white;margin: 10px;}
+.fa-google-plus{color: white;background-color: red;margin: 10px;}
+.fa-twitter{color: white;background-color: #229ED7;margin: 10px;}
+.whi{color: white;}
+.wh{color: #A39797;}
+.ult li{color: #A39797;list-style-type: none;}
+.media{font-size: 9px;color: #A39797;}
+.breadcrumb-bl li{background-color: #211E56;list-style: none;display: inline;margin: 10px;float: right;}
+.ultimo{background-color: #211E56;}
+@media  (max-width: 497px) and (max-height: 2888px){body }
+/*termina about us*/
+
+
+/*home*/
+.left{float: left;margin: 30px;}
+.activ{background-color: #030423;border-radius: 10px;color: white;}
+.navbar-collapse{float: right;margin-bottom: 0;}
+.navbar-default{background-color:#200D5C;height: 80px;margin-bottom: 0;}
+.lion{background-image: url(../images/slider/bg1.jpg);width: 100%;background-repeat: no-repeat;background-size: cover;height: 500px;}
+.centro{color: white;margin-left: 60px;}
+.centre{padding:180px;}
+.turqueza{background-color: #12BC5A;width: 100%;height: 200px;}
+@media  (max-width: 497px) and (max-height: 3417px){body }
+/*termina home*/
